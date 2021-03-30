@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <title>Pixel Notification</title>
+  <h1>Pixel Notification Test</h1>
+  <p>
+    Click the button below to send a notification and CLOSE to close it. Make sure to request permissions if you haven't yet!
+  </p>
+  <button onclick="Notification.requestPermission()">
+    Request Permissions
+  </button>
+  <button onclick="var notification = new Notification('Hi there!')">
+    SEND
+  </button>
+  <button onclick="Notification.close()">
+    CLOSE
+  </button>
+  <input type="text" id="title"><br>
+  <textarea id="body"></textarea>
+  <script>
+    var title = document.getElementById('title')
+    var body = document.getElementById('body')
+  if (!("Notification" in window)) {
+    document.createElement(p).createTextNode("Apparently, the great IE or whatever browser your on literally is incompatible with notifications.")
+  }
+  </script>
+</html>
