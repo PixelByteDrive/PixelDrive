@@ -3,6 +3,9 @@ html, body {
   padding: 0;
 }
 body {
+
+}
+#body {
   background-color: #000000;
 }
 #heading {
@@ -56,4 +59,18 @@ button:active {
 #logo {
   width: 5%;
   height: 5%;
+}
+#banner {
+  background-color: #ff5050;
+  color: white;
+  font-family: "Trebuchet MS";
+}
+h4 {
+  color: #ffffff;
+  font-family: "Trebuchet MS";
+  font-size: 8px;
+  text-align: center;
+}
+a {
+  color: #c69eff;
 }
